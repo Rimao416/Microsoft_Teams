@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Shop</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            font-family: Roboto;
+            background-color:#F9F6FD;
+        }
+        .container{
+            margin-left: 7%;
+        }
+        .card{
+            display: inline-block;
+            background-color: white;
+            margin-top: 10px;
+            margin-left: 10px;
+            box-shadow: 0 15px 30px rgba(102,113,228,0.13);
+            border:1px solid #ccc;
+            width: 265px;
+            height: 220px;
+            overflow: hidden;
+        }
+        .card img{
+            width: 70px;
+            height: 70px;
+            border-radius:7px;
+        }
+        .card .content{
+            position: relative;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            text-align: center;
+        }
+        .content .card_text{
+            width: 75%;
+            margin-top: 4%;
+            margin-left: 12%;
+            color: rgb(72,72,72);
+            
+        }
+        @media screen and (max-width: 992px) {
+            .container{
+                margin-left:0;
+            }
+            .card{
+                margin-left: 0;
+                width: 100%;
+            }
+
+        }
+        @media (min-width: 992px) and (max-width : 1200px){
+            .container{
+                margin-left: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="content">
+                <div class="card_img">
+                    <img src="1615464937.png" alt="">
+                </div>
+                <div class="card_text">
+                    Algorithme et Structure de donnée
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="content">
+                <div class="card_img">
+                    <img src="1615464937.png" alt="">
+                </div>
+                <div class="card_text">
+                    Algorithme et Structure de donnée
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="content">
+                <div class="card_img">
+                    <img src="1615464937.png" alt="">
+                </div>
+                <div class="card_text">
+                    Algorithme et Structure de donnée
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="content">
+                <div class="card_img">
+                    <img src="1615464937.png" alt="">
+                </div>
+                <div class="card_text">
+                    Algorithme et Structure de donnée
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="content">
+                <div class="card_img">
+                    <img src="1615464937.png" alt="">
+                </div>
+                <div class="card_text">
+                    Algorithme et Structure de donnée
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="content">
+                <div class="card_img">
+                    <img src="1615464937.png" alt="">
+                </div>
+                <div class="card_text">
+                    Algorithme et Structure de donnée
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/glide.min.js"></script>
+    <script>
+        var width = $(window).width();
+
+var height = $('.container').height();
+console.log(height);
+
+        /*        $(".content").click(function() {
+         });*/
+    </script>
+</body>
+</html>
